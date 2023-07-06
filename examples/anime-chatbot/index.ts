@@ -7,8 +7,6 @@ import prompt from "prompt";
 
 dotenv.config();
 
-const {} = process.env;
-
 const VECTOR_STORE_DIRECTORY = path.join(__dirname, "./data");
 
 async function main() {

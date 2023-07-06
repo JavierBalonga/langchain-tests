@@ -1,10 +1,11 @@
 {
-  "name": "langchain-test",
+  "name": "langchain-tests",
   "version": "0.0.1",
   "main": "index.js",
   "license": "MIT",
   "scripts": {
-    "dev": "ts-node src/index.ts"
+    "anime-chatbot": "ts-node examples/anime-chatbot/index.ts",
+    "zero-shot-react-description": "ts-node examples/zero-shot-react-description/index.ts"
   },
   "dependencies": {
     "axios": "^1.4.0",
